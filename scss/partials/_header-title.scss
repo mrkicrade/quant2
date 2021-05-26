@@ -1,0 +1,19 @@
+.main-header__par {
+  font-size: $header-title;
+  letter-spacing: 2.7;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main-header__title {
+  color: $info-text-color;
+  font-size: $main-header-title;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  width: 60%;
+}
