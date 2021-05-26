@@ -3,6 +3,7 @@
   border: 0;
   border-radius: 50px;
   color: $btn-color;
+  cursor: pointer;
   display: block;
   font-weight: 700;
   height: 60px;
@@ -12,5 +13,10 @@
   padding-left: 19px;
   padding-right: 19px;
   text-transform: uppercase;
+  transition: width 1s;
   width: 222px;
+
+  &:hover {
+    width: 300px;
+  }
 }

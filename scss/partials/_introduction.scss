@@ -1,0 +1,8 @@
+.introduction {
+  display: flex;
+  padding: 100px 35px;
+
+  &__introduction__paragraph {
+    font-size: $font-sizes;
+  }
+}
