@@ -1,8 +1,17 @@
 .about {
   background-color: $about-color;
-  background-image: url('../images/background.png');
-  background-position: 50% 0;
-  background-repeat: no-repeat;
-  background-size: cover;
+  // background-position: 50% 0;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  display: flex;
   position: relative;
+
+  &__image {
+    overflow: hidden;
+    width: 50%;
+  }
+
+  &__info {
+    width: 50%;
+  }
 }

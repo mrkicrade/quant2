@@ -213,8 +213,10 @@ a {
 
 .about {
   background-color: #f8f8f8;
-  background-image: url("../images/background.png");
-  background-position: 50% 0;
-  background-repeat: no-repeat;
-  background-size: cover;
+  display: flex;
   position: relative; }
+  .about__image {
+    overflow: hidden;
+    width: 50%; }
+  .about__info {
+    width: 50%; }
