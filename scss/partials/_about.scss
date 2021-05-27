@@ -1,17 +1,73 @@
 .about {
   background-color: $about-color;
-  // background-position: 50% 0;
-  // background-repeat: no-repeat;
-  // background-size: cover;
   display: flex;
-  position: relative;
 
   &__image {
-    overflow: hidden;
+    padding-right: 15px;
+    position: relative;
+    top: -100px;
+    transition: 2s;
     width: 50%;
   }
 
   &__info {
+    padding-left: 15px;
+    padding-right: 40px;
     width: 50%;
+
+    article {
+      border-top: 1px solid $about-info-border;
+      margin-right: 28px;
+      margin-top: 20px;
+      padding-top: 20px;
+    }
+
+    &-icon {
+      margin-bottom: 40px;
+      padding-top: 40px;
+    }
+
+    &-paragraph {
+      color: $about-info-paragraph;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    &-title {
+      color: $about-title;
+      font-size: $info-images-size;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    &-desc {
+      font-size: $introduction-title;
+      line-height: 1.8;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .about {
+    flex-wrap: wrap;
+    padding: 0 90px;
+
+    &__image {
+      width: 100%;
+    }
+
+    &__info {
+      width: 100%;
+
+      &-title {
+        font-size: $info-heading;
+      }
+
+      &-description {
+        background-color: $info-text-color;
+        margin-top: 10px;
+        padding: 20px 40px;
+      }
+    }
   }
 }

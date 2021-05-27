@@ -4,8 +4,11 @@
   box-shadow: $box-shadow-color;
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
   position: sticky;
   top: 0;
+  width: 89%;
+  z-index: 1;
 
   &__left {
     color: $info-text-color;
