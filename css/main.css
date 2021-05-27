@@ -198,4 +198,23 @@ a {
       margin-top: 32px;
       text-transform: uppercase; }
   .introduction .introduction__articles {
-    border-right: 1px solid #f1f1f1; }
+    border-right: 1px solid #f1f1f1;
+    margin-top: 0; }
+
+@media (max-width: 800px) {
+  .introduction {
+    flex-wrap: wrap;
+    padding-left: 10px; }
+    .introduction article {
+      margin-top: 40px;
+      width: 100%; }
+    .introduction .introduction__articles {
+      border-right: 0; } }
+
+.about {
+  background-color: #f8f8f8;
+  background-image: url("../images/background.png");
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }

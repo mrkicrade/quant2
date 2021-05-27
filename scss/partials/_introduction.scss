@@ -44,5 +44,22 @@
 
   .introduction__articles {
     border-right: 1px solid $introduction-border;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .introduction {
+    flex-wrap: wrap;
+    padding-left: 10px;
+
+    article {
+      margin-top: 40px;
+      width: 100%;
+    }
+
+    .introduction__articles {
+      border-right: 0;
+    }
   }
 }
