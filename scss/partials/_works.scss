@@ -12,5 +12,51 @@
       height: 70%;
       width: 100%;
     }
+
+    &-info {
+      color: $info-text-color;
+      display: none;
+      left: 50%;
+      position: absolute;
+      text-align: center;
+      top: 30%;
+      transform: translate(-50%, -50%);
+      transition: display .2s;
+      width: 65%;
+
+      &-heading {
+        font-size: $works-info-heading;
+        font-weight: 700;
+        margin-bottom: 5px;
+      }
+
+      &-desc {
+        font-size: $info-font-sizes;
+        text-transform: uppercase;
+      }
+
+      &-icons {
+        background-color: $info-text-color;
+        border-radius: 50%;
+        height: 60px;
+        margin-top: 15px;
+        width: 60px;
+      }
+
+      .fa-link {
+        margin-right: 15px;
+      }
+
+      &:hover {
+        display: block;
+      }
+    }
+
+    // &:hover {
+    //   &-info {
+    //     display: block;
+    //   }
+    // }
   }
+
 }
