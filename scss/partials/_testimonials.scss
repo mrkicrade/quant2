@@ -1,0 +1,54 @@
+.testimonials {
+  box-shadow: $box-shadow-color;
+  margin: 0 75px;
+  padding: 0 55px;
+  position: relative;
+  text-align: center;
+
+  &__par {
+    letter-spacing: 3px;
+    padding-top: 100px;
+    text-transform: uppercase;
+  }
+
+  &__heading {
+    color: $header-bkg-color;
+    font-size: $introduction-heading;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+
+  .fa-chevron-left {
+    color: $arrow-color;
+    font-size: $arrow-size;
+    position: absolute;
+    top: 250px;
+  }
+
+  &__user {
+    margin: 0 200px;
+    width: 100px;
+  }
+
+  .fa-chevron-right {
+    color: $arrow-color;
+    font-size: $arrow-size;
+    position: absolute;
+    top: 250px;
+  }
+
+  &__desc {
+    margin: 20px 0;
+  }
+
+  &__strong {
+    color: $header-bkg-color;
+    font-size: $introduction-title;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+
+  &__number {
+    font-size: $info-heading;
+  }
+}

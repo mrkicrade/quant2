@@ -91,7 +91,7 @@ a {
   box-shadow: 0 15px 45px -9px #888;
   display: flex;
   justify-content: space-between;
-  left: 5%;
+  left: 5.45%;
   margin: 0 auto;
   position: absolute;
   top: 100px;
@@ -370,3 +370,97 @@ a {
   .works__gallery {
     flex-wrap: wrap;
     width: 100%; } }
+
+.testimonials {
+  box-shadow: 0 15px 45px -9px #888;
+  margin: 0 75px;
+  padding: 0 55px;
+  position: relative;
+  text-align: center; }
+  .testimonials__par {
+    letter-spacing: 3px;
+    padding-top: 100px;
+    text-transform: uppercase; }
+  .testimonials__heading {
+    color: rgba(10, 10, 10, 0.8);
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-transform: uppercase; }
+  .testimonials .fa-chevron-left {
+    color: #cacaca;
+    font-size: 28px;
+    position: absolute;
+    top: 250px; }
+  .testimonials__user {
+    margin: 0 200px;
+    width: 100px; }
+  .testimonials .fa-chevron-right {
+    color: #cacaca;
+    font-size: 28px;
+    position: absolute;
+    top: 250px; }
+  .testimonials__desc {
+    margin: 20px 0; }
+  .testimonials__strong {
+    color: rgba(10, 10, 10, 0.8);
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 30px; }
+  .testimonials__number {
+    font-size: 26px; }
+
+.epp {
+  display: flex;
+  margin: 0 75px;
+  margin-top: 100px; }
+  .epp__left {
+    display: flex;
+    width: 70%; }
+    .epp__left__active {
+      color: rgba(10, 10, 10, 0.8); }
+    .epp__left__list {
+      border-right: 1px solid rgba(0, 0, 0, 0.08);
+      display: block;
+      padding-right: 40px;
+      text-align: right;
+      width: 90%; }
+      .epp__left__list .active {
+        color: rgba(10, 10, 10, 0.8); }
+    .epp__left__title {
+      color: #8d8d8d; }
+    .epp__left__icons {
+      color: #8d8d8d;
+      line-height: 3.7;
+      margin-left: 15px; }
+    .epp__left__desc {
+      margin-top: 35px;
+      padding-left: 45px;
+      padding-right: 60px; }
+  .epp__right {
+    display: flex;
+    justify-content: space-between; }
+    .epp__right__left {
+      margin-top: 35px;
+      padding-left: 40px;
+      padding-right: 80px; }
+      .epp__right__left-heading {
+        color: #4c4c4c;
+        font-size: 24px;
+        margin-bottom: 30px;
+        text-transform: uppercase; }
+
+@media (max-width: 1025px) {
+  .epp__left {
+    display: block; }
+    .epp__left__list {
+      border-left: 1px solid rgba(0, 0, 0, 0.08);
+      border-right: 0;
+      padding-left: 45px;
+      text-align-last: left; } }
+
+@media (max-width: 800px) {
+  .epp {
+    display: block; }
+    .epp__right__image {
+      margin-left: auto;
+      margin-top: 30px; } }
