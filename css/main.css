@@ -91,11 +91,15 @@ a {
   box-shadow: 0 15px 45px -9px #888;
   display: flex;
   justify-content: space-between;
+  left: 5%;
   margin: 0 auto;
-  position: sticky;
-  top: 0;
+  position: absolute;
+  top: 100px;
   width: 89%;
   z-index: 1; }
+  .navigation.sticky {
+    position: fixed;
+    top: 0; }
   .navigation__left {
     color: #fff;
     padding: 24px 17px; }
@@ -304,35 +308,39 @@ a {
   justify-content: space-between;
   margin: 50px 75px 0; }
   .works__gallery {
+    display: inline-block;
+    overflow: hidden;
     position: relative;
     width: 31.5%; }
     .works__gallery-img {
       height: 70%;
       width: 100%; }
-    .works__gallery-info {
+    .works__gallery:hover .works__gallery__info {
+      opacity: 1; }
+    .works__gallery__info {
       color: #fff;
-      display: none;
       left: 50%;
+      opacity: 0;
       position: absolute;
       text-align: center;
       top: 30%;
       transform: translate(-50%, -50%);
-      transition: display .2s;
+      transition: opacity .2s ease-in;
       width: 65%; }
-      .works__gallery-info-heading {
+      .works__gallery__info-heading {
         font-size: 24px;
         font-weight: 700;
         margin-bottom: 5px; }
-      .works__gallery-info-desc {
+      .works__gallery__info-desc {
         font-size: 13px;
         text-transform: uppercase; }
-      .works__gallery-info-icons {
+      .works__gallery__info-icons {
         background-color: #fff;
         border-radius: 50%;
         height: 60px;
         margin-top: 15px;
         width: 60px; }
-      .works__gallery-info .fa-link {
+      .works__gallery__info .fa-link {
         margin-right: 15px; }
-      .works__gallery-info:hover {
+      .works__gallery__info:hover {
         display: block; }

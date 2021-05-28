@@ -4,11 +4,17 @@
   box-shadow: $box-shadow-color;
   display: flex;
   justify-content: space-between;
+  left: 5%;
   margin: 0 auto;
-  position: sticky;
-  top: 0;
+  position: absolute;
+  top: 100px;
   width: 89%;
   z-index: 1;
+
+  &.sticky {
+    position: fixed;
+    top: 0;
+  }
 
   &__left {
     color: $info-text-color;

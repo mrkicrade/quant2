@@ -62,7 +62,9 @@ rules:
 
   # Style Guide
   attribute-quotes: 1
-  bem-depth: 3
+  bem-depth:
+    - 1
+    - max-depth: 2
   border-zero: 1
   brace-style: 1
   clean-import-paths: 1

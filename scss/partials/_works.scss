@@ -5,6 +5,8 @@
   margin: 50px 75px 0;
 
   &__gallery {
+    display: inline-block;
+    overflow: hidden;
     position: relative;
     width: 31.5%;
 
@@ -13,15 +15,19 @@
       width: 100%;
     }
 
-    &-info {
+    &:hover &__info {
+      opacity: 1;
+    }
+
+    &__info {
       color: $info-text-color;
-      display: none;
       left: 50%;
+      opacity: 0;
       position: absolute;
       text-align: center;
       top: 30%;
       transform: translate(-50%, -50%);
-      transition: display .2s;
+      transition: opacity .2s ease-in;
       width: 65%;
 
       &-heading {

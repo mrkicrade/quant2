@@ -1,10 +1,9 @@
 window.onscroll = function() {myFunction()};
 
 var navigation = document.getElementById("navigation");
-var sticky = navigation.offsetTop;
 
 function myFunction() {
-  if (window.pageYOffset >= sticky) {
+  if (window.pageYOffset >= 100) {
     navigation.classList.add("sticky")
   } else {
     navigation.classList.remove("sticky");
