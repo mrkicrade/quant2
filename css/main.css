@@ -53,6 +53,7 @@ a {
   .main-header__phone {
     border-right: 1px solid rgba(255, 255, 255, 0.15);
     color: #fff;
+    cursor: pointer;
     display: flex;
     font-size: 13px;
     height: 45px;
@@ -65,6 +66,7 @@ a {
   .main-header__email {
     border-right: 1px solid rgba(255, 255, 255, 0.15);
     color: #fff;
+    cursor: pointer;
     display: flex;
     font-size: 13px;
     height: 45px;
@@ -74,6 +76,7 @@ a {
       opacity: 0.8; }
   .main-header__working-hours {
     color: #fff;
+    cursor: pointer;
     display: flex;
     font-size: 13px;
     height: 45px;
@@ -110,6 +113,7 @@ a {
     height: 100%; }
     .navigation__right li {
       border-left: 1px solid rgba(0, 0, 0, 0.08);
+      cursor: pointer;
       margin-right: 25px;
       padding-left: 25px;
       padding-top: 25px; }
@@ -130,6 +134,7 @@ a {
   font-size: 17px;
   letter-spacing: 2.7;
   line-height: 13px;
+  margin-top: 100px;
   text-align: center;
   text-transform: uppercase; }
 
@@ -392,6 +397,7 @@ a {
     position: absolute;
     top: 250px; }
   .testimonials__user {
+    display: inline-block;
     margin: 0 200px;
     width: 100px; }
   .testimonials .fa-chevron-right {

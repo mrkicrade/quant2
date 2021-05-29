@@ -38,6 +38,7 @@
   &__phone {
     border-right: 1px solid $border-right-color;
     color: $info-text-color;
+    cursor: pointer;
     display: flex;
     font-size: $info-font-sizes;
     height: 45px;
@@ -56,6 +57,7 @@
   &__email {
     border-right: 1px solid $border-right-color;
     color: $info-text-color;
+    cursor: pointer;
     display: flex;
     font-size: $info-font-sizes;
     height: 45px;
@@ -69,6 +71,7 @@
 
   &__working-hours {
     color: $info-text-color;
+    cursor: pointer;
     display: flex;
     font-size: $info-font-sizes;
     height: 45px;
