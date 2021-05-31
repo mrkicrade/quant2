@@ -48,10 +48,6 @@
     &:hover {
       @include opacity(.8);
     }
-
-    strong {
-      text-transform: uppercase;
-    }
   }
 
   &__email {
@@ -80,6 +76,10 @@
     &:hover {
       @include opacity(.8);
     }
+  }
+
+  &__strong {
+    text-transform: uppercase;
   }
 }
 

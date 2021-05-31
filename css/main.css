@@ -61,8 +61,6 @@ a {
     padding-right: 20px; }
     .main-header__phone:hover {
       opacity: 0.8; }
-    .main-header__phone strong {
-      text-transform: uppercase; }
   .main-header__email {
     border-right: 1px solid rgba(255, 255, 255, 0.15);
     color: #fff;
@@ -83,6 +81,12 @@ a {
     margin-right: 20px; }
     .main-header__working-hours:hover {
       opacity: 0.8; }
+  .main-header__strong {
+    text-transform: uppercase; }
+
+@media (max-width: 1350px) {
+  .main-header__info__title {
+    font-size: 40px; } }
 
 @media (max-width: 1025px) {
   .main-header__contact {
@@ -148,6 +152,26 @@ a {
   text-align: center;
   text-transform: uppercase;
   width: 60%; }
+
+@media (max-width: 1350px) {
+  .main-header__par {
+    margin-bottom: 10px; }
+  .main-header__title {
+    font-size: 40px; } }
+
+@media (max-width: 1200px) {
+  .main-header__title {
+    font-size: 30px; } }
+
+@media (max-width: 863px) {
+  .main-header__title {
+    font-size: 24px; } }
+
+@media (max-width: 863px) {
+  .main-header__par {
+    font-size: 16px; }
+  .main-header__title {
+    font-size: 16px; } }
 
 .btn {
   background-color: #fff;
@@ -521,8 +545,7 @@ a {
       height: 85px;
       width: 85px; }
     .footer__projects__icons {
-      background-color: rgba(10, 10, 10, 0.8);
-      color: rgba(10, 10, 10, 0.8);
+      color: #fff;
       left: 50%;
       opacity: 0;
       position: absolute;

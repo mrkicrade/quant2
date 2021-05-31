@@ -18,3 +18,39 @@
   text-transform: uppercase;
   width: 60%;
 }
+
+@media (max-width: 1350px) {
+  .main-header {
+    &__par {
+      margin-bottom: 10px;
+    }
+
+    &__title {
+      font-size: $main-header-title2;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .main-header__title {
+    font-size: $introduction-heading;
+  }
+}
+
+@media (max-width: 863px) {
+  .main-header__title {
+    font-size: $works-info-heading;
+  }
+}
+
+@media (max-width: 863px) {
+  .main-header {
+    &__par {
+      font-size: $introduction-title;
+    }
+
+    &__title {
+      font-size: $introduction-title;
+    }
+  }
+}
