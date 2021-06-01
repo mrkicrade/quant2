@@ -1,8 +1,9 @@
 .works {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 50px 75px 0;
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: space-between;
+  margin: 30px 15px 0;
+  position: relative;
 
   &__gallery {
     display: inline-block;
@@ -10,7 +11,8 @@
     margin-bottom: 20px;
     overflow: hidden;
     position: relative;
-    width: 31.5%;
+    // width: 31.5%;
+    width: 100%;
 
     &:hover {
       background-color: $introduction-btn;
@@ -79,25 +81,32 @@
       }
     }
   }
-}
 
-@media (max-width: 1025px) {
-  .works {
-
-    &__gallery {
-      flex-wrap: wrap;
-      margin-right: 20px;
-      width: 45%;
-    }
+  &__btn-2 {
+    bottom: -40px;
+    display: block;
+    position: absolute;
+    right: 65px;
   }
 }
 
-@media (max-width: 800px) {
-  .works {
+// @media (max-width: 1025px) {
+//   .works {
 
-    &__gallery {
-      flex-wrap: wrap;
-      width: 100%;
-    }
-  }
-}
+//     &__gallery {
+//       flex-wrap: wrap;
+//       margin-right: 20px;
+//       width: 45%;
+//     }
+//   }
+// }
+
+// @media (max-width: 800px) {
+//   .works {
+
+//     &__gallery {
+//       flex-wrap: wrap;
+//       width: 100%;
+//     }
+//   }
+// }

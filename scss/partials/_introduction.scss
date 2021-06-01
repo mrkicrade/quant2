@@ -1,35 +1,40 @@
 .introduction {
-  display: flex;
-  padding: 100px 35px;
+  // display: flex;
+  // padding: 100px 35px;
+  // padding: 100px 10px;
+  padding: 50px 15px;
 
   article {
-    padding-left: 3%;
-    padding-right: 3%;
-    width: 25%;
+    // padding-left: 3%;
+    // padding-right: 3%;
+    // width: 25%;
 
     .introduction__paragraph {
       font-size: $font-sizes;
       letter-spacing: 4px;
+      text-align: center;
       text-transform: uppercase;
     }
 
     .introduction__heading {
       color: $black-heading;
-      font-size: $introduction-heading;
+      font-size: $works-info-heading;
       font-weight: 900;
       margin-bottom: 15px;
+      text-align: center;
       text-transform: uppercase;
     }
 
     .introduction__btn {
       color: $introduction-btn;
       cursor: pointer;
-      margin-top: 15px;
+      // margin-top: 15px;
       text-transform: uppercase;
     }
 
     .introduction__desc {
       margin-bottom: 15px;
+      text-align: justify;
     }
 
     .introduction__title {
@@ -43,23 +48,24 @@
   }
 
   .introduction__articles {
-    border-right: 1px solid $introduction-border;
-    margin-top: 0;
+    // border-right: 1px solid $introduction-border;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
 }
 
-@media (max-width: 800px) {
-  .introduction {
-    flex-wrap: wrap;
-    padding-left: 10px;
+// @media (max-width: 800px) {
+//   .introduction {
+//     flex-wrap: wrap;
+//     padding-left: 10px;
 
-    article {
-      margin-top: 40px;
-      width: 100%;
-    }
+//     article {
+//       margin-top: 40px;
+//       width: 100%;
+//     }
 
-    .introduction__articles {
-      border-right: 0;
-    }
-  }
-}
+//     .introduction__articles {
+//       border-right: 0;
+//     }
+//   }
+// }

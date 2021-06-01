@@ -1,34 +1,40 @@
 .footer {
   background-color: $footer-bkg-color;
-  background-image: url('../images/background.png');
+  // background-image: url('../images/background.png');
   background-repeat: no-repeat;
   background-size: cover;
   color: $footer-color;
-  display: flex;
-  justify-content: space-between;
-  padding: 100px 75px 50px;
+  // display: flex;
+  // justify-content: space-between;
+  // padding: 100px 75px 50px;
+  padding: 50px 0;
 
 
   &__part {
     margin-bottom: 25px;
     padding: 0 15px;
-    width: 33.3%;
+    // width: 33.3%;
+    text-align: center;
+    width: 100%;
 
     &__par {
       line-height: 1.8;
       margin-bottom: 20px;
       margin-top: 10px;
-
+      text-align: justify;
     }
 
     &__soc {
+      color: $info-text-color;
       margin-right: 25px;
     }
   }
 
   &__address {
     line-height: 3.7;
-    width: 33.3%;
+    // width: 33.3%;
+    text-align: center;
+    width: 100%;
 
     &__heading {
       text-transform: uppercase;
@@ -37,21 +43,25 @@
     &__city {
       align-items: baseline;
       display: flex;
+      margin-left: 15px;
     }
 
     &__phone {
       align-items: baseline;
       display: flex;
+      margin-left: 15px;
     }
 
     &__mail {
       align-items: baseline;
       display: flex;
+      margin-left: 15px;
     }
 
     &__hours {
       align-items: baseline;
       display: flex;
+      margin-left: 15px;
     }
 
     &__icons {
@@ -60,9 +70,12 @@
   }
 
   &__projects {
+    margin: 0 15px;
     max-width: 400px;
-    padding-right: 25px;
-    width: 33.3%;
+    // padding-right: 25px;
+    // width: 33.3%;
+    text-align: center;
+    width: 100%;
 
     &__heading {
       margin-bottom: 20px;
@@ -91,7 +104,8 @@
 
     &__articles {
       cursor: pointer;
-      margin-right: 10px;
+      // margin-right: 10px;
+      margin-right: 5%;
       position: relative;
       transition: opacity .2s ease-in;
 
@@ -106,16 +120,16 @@
   }
 }
 
-@media (max-width: 800px) {
-  .footer {
-    display: block;
+// @media (max-width: 800px) {
+//   .footer {
+//     display: block;
 
-    &__projects {
-      width: 100%;
+//     &__projects {
+//       width: 100%;
 
-      &__images {
-        justify-content: space-between;
-      }
-    }
-  }
-}
+//       &__images {
+//         justify-content: space-between;
+//       }
+//     }
+//   }
+// }
