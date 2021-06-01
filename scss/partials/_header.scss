@@ -3,8 +3,9 @@
   background-image: url('../images/background.png');
   background-repeat: no-repeat;
   background-size: cover;
-  padding-left: 75px;
-  padding-right: 60px;
+  // padding-left: 75px;
+  // padding-right: 60px;
+  padding: 0 20px;
 
   &__info {
     display: flex;
@@ -13,6 +14,7 @@
   }
 
   &__contact {
+    display: none !important;
     display: flex;
     margin-top: 5px;
 
@@ -83,8 +85,8 @@
   }
 }
 
-@media (max-width: 1025px) {
-  .main-header__contact {
-    display: none;
-  }
-}
+// @media (max-width: 1025px) {
+//   .main-header__contact {
+//     display: none;
+//   }
+// }
