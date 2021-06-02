@@ -84,7 +84,7 @@
     &__images {
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: space-around;
     }
 
     &__image {
@@ -106,7 +106,7 @@
     &__articles {
       cursor: pointer;
       // margin-right: 10px;
-      margin-right: 5%;
+      // margin-right: 5%;
       position: relative;
       transition: opacity .2s ease-in;
 

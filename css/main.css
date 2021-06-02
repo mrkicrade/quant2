@@ -271,15 +271,15 @@ a {
 
 .works {
   margin: 30px 15px 0;
-  position: relative; }
+  text-align: center; }
   .works__gallery {
+    cursor: pointer;
     display: inline-block;
     height: 18rem;
     margin-bottom: 20px;
     overflow: hidden;
     position: relative;
-    width: 100%;
-    cursor: pointer; }
+    width: 100%; }
     .works__gallery:hover {
       background-color: #ecad17;
       opacity: .7; }
@@ -325,11 +325,6 @@ a {
         margin-right: 15px; }
       .works__gallery__info:hover {
         display: block; }
-  .works__btn-2 {
-    bottom: -40px;
-    display: block;
-    position: absolute;
-    right: 65px; }
 
 .testimonials {
   box-shadow: 0 15px 45px -9px #888;
@@ -407,6 +402,7 @@ a {
         color: #4c4c4c;
         font-size: 24px;
         margin-bottom: 30px;
+        text-align: center;
         text-transform: uppercase; }
     .epp__right__image {
       width: 90%; }
@@ -462,7 +458,7 @@ a {
     .footer__projects__images {
       display: flex;
       flex-wrap: wrap;
-      justify-content: center; }
+      justify-content: space-around; }
     .footer__projects__image {
       height: 85px;
       width: 85px; }
@@ -476,7 +472,6 @@ a {
       transition: opacity .2s ease-in; }
     .footer__projects__articles {
       cursor: pointer;
-      margin-right: 5%;
       position: relative;
       transition: opacity .2s ease-in; }
       .footer__projects__articles:hover {
