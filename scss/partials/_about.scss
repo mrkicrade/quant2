@@ -52,6 +52,20 @@
   }
 }
 
+@media (min-width: 568px) {
+  .about {
+    &__info {
+      &-paragraph {
+        font-size: $introduction-title-sm;
+      }
+
+      &-title {
+        font-size: $arrow-size;
+      }
+    }
+  }
+}
+
 // @media (max-width: 800px) {
 //   .about {
 //     flex-wrap: wrap;

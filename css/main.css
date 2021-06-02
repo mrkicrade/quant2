@@ -137,6 +137,12 @@ a {
   text-transform: uppercase;
   width: 60%; }
 
+@media (min-width: 568px) {
+  .main-header__par {
+    font-size: 15px; }
+  .main-header__title {
+    font-size: 24px; } }
+
 .btn {
   background-color: #fff;
   border: 0;
@@ -157,6 +163,10 @@ a {
   .btn:hover {
     width: 300px; }
 
+@media (min-width: 568px) {
+  .btn {
+    width: 250px; } }
+
 .circle {
   margin-top: 95px;
   padding-bottom: 35px;
@@ -168,26 +178,26 @@ a {
 
 .introduction {
   padding: 50px 15px; }
-  .introduction article .introduction__paragraph {
+  .introduction__articles__paragraph {
     font-size: 14px;
     letter-spacing: 4px;
     text-align: center;
     text-transform: uppercase; }
-  .introduction article .introduction__heading {
+  .introduction__articles__heading {
     color: #303030;
     font-size: 24px;
     font-weight: 900;
     margin-bottom: 15px;
     text-align: center;
     text-transform: uppercase; }
-  .introduction article .introduction__btn {
+  .introduction__articles__btn {
     color: #ecad17;
     cursor: pointer;
     text-transform: uppercase; }
-  .introduction article .introduction__desc {
+  .introduction__articles__desc {
     margin-bottom: 15px;
     text-align: justify; }
-  .introduction article .introduction__title {
+  .introduction__articles .introduction__title {
     color: #303030;
     font-size: 16px;
     font-weight: 900;
@@ -197,6 +207,14 @@ a {
   .introduction .introduction__articles {
     margin-bottom: 10px;
     margin-top: 10px; }
+
+@media (min-width: 568px) {
+  .introduction__articles {
+    text-align: center; }
+    .introduction__articles__paragraph {
+      font-size: 18px; }
+  .introduction__heading {
+    font-size: 28px; } }
 
 .about {
   background-color: #f8f8f8;
@@ -230,6 +248,12 @@ a {
     .about__info-desc {
       font-size: 16px;
       line-height: 1.8; }
+
+@media (min-width: 568px) {
+  .about__info-paragraph {
+    font-size: 18px; }
+  .about__info-title {
+    font-size: 28px; } }
 
 .gallery {
   padding: 0 15px;
@@ -268,6 +292,12 @@ a {
   .gallery__articles {
     display: flex;
     flex-wrap: wrap; }
+
+@media (min-width: 568px) {
+  .gallery__par {
+    font-size: 18px; }
+  .gallery__heading {
+    font-size: 28px; } }
 
 .works {
   margin: 30px 15px 0;
@@ -368,6 +398,12 @@ a {
   .testimonials__number {
     font-size: 26px; }
 
+@media (min-width: 568px) {
+  .testimonials__par {
+    font-size: 18px; }
+  .testimonials__heading {
+    font-size: 28px; } }
+
 .epp {
   margin-top: 50px; }
   .epp__left__active {
@@ -406,6 +442,10 @@ a {
         text-transform: uppercase; }
     .epp__right__image {
       width: 90%; }
+
+@media (min-width: 568px) {
+  .epp__left__desc-heading {
+    font-size: 18px; } }
 
 .footer {
   background-color: rgba(10, 10, 10, 0.8);

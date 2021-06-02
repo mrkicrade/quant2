@@ -50,3 +50,15 @@
     flex-wrap: wrap;
   }
 }
+
+@media (min-width: 568px) {
+  .gallery {
+    &__par {
+      font-size: $introduction-title-sm;
+    }
+
+    &__heading {
+      font-size: $arrow-size;
+    }
+  }
+}

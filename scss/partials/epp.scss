@@ -72,6 +72,18 @@
   }
 }
 
+@media (min-width: 568px) {
+  .epp {
+    &__left {
+      &__desc {
+        &-heading {
+          font-size: $introduction-title-sm;
+        }
+      }
+    }
+  }
+}
+
 // @media (max-width: 1025px) {
 //   .epp {
 //     &__left {

@@ -22,6 +22,16 @@
   width: 60%;
 }
 
+@media (min-width: 568px) {
+  .main-header__par {
+    font-size: $heading-title;
+  }
+
+  .main-header__title {
+    font-size: $works-info-heading;
+  }
+}
+
 // @media (max-width: 1350px) {
 //   .main-header {
 //     &__par {
