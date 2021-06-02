@@ -70,8 +70,8 @@
   }
 
   &__projects {
-    margin: 0 15px;
-    max-width: 400px;
+    // margin: 0 15px;
+    // max-width: 400px;
     // padding-right: 25px;
     // width: 33.3%;
     text-align: center;
@@ -84,6 +84,7 @@
     &__images {
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
     }
 
     &__image {

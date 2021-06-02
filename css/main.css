@@ -278,7 +278,8 @@ a {
     margin-bottom: 20px;
     overflow: hidden;
     position: relative;
-    width: 100%; }
+    width: 100%;
+    cursor: pointer; }
     .works__gallery:hover {
       background-color: #ecad17;
       opacity: .7; }
@@ -454,15 +455,14 @@ a {
     .footer__address__icons {
       margin-right: 15px; }
   .footer__projects {
-    margin: 0 15px;
-    max-width: 400px;
     text-align: center;
     width: 100%; }
     .footer__projects__heading {
       margin-bottom: 20px; }
     .footer__projects__images {
       display: flex;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+      justify-content: center; }
     .footer__projects__image {
       height: 85px;
       width: 85px; }
