@@ -74,10 +74,10 @@
 
 @media (min-width: 568px) {
   .epp {
-    &__left {
-      &__desc {
+    &__right {
+      &__left {
         &-heading {
-          font-size: $introduction-title-sm;
+          font-size: $arrow-size;
         }
       }
     }

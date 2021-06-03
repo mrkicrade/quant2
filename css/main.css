@@ -137,11 +137,17 @@ a {
   text-transform: uppercase;
   width: 60%; }
 
-@media (min-width: 568px) {
+@media (min-width: 576px) {
   .main-header__par {
     font-size: 15px; }
   .main-header__title {
     font-size: 24px; } }
+
+@media (min-width: 768px) {
+  .main-header__par {
+    font-size: 20px; }
+  .main-header__title {
+    font-size: 30px; } }
 
 .btn {
   background-color: #fff;
@@ -208,7 +214,7 @@ a {
     margin-bottom: 10px;
     margin-top: 10px; }
 
-@media (min-width: 568px) {
+@media (min-width: 576px) {
   .introduction__articles {
     text-align: center; }
     .introduction__articles__paragraph {
@@ -356,6 +362,14 @@ a {
       .works__gallery__info:hover {
         display: block; }
 
+@media (min-width: 768px) {
+  .works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .works__gallery {
+      width: 49%; } }
+
 .testimonials {
   box-shadow: 0 15px 45px -9px #888;
   margin: 70px 15px 0;
@@ -444,8 +458,8 @@ a {
       width: 90%; }
 
 @media (min-width: 568px) {
-  .epp__left__desc-heading {
-    font-size: 18px; } }
+  .epp__right__left-heading {
+    font-size: 28px; } }
 
 .footer {
   background-color: rgba(10, 10, 10, 0.8);
@@ -518,3 +532,8 @@ a {
         opacity: .7; }
         .footer__projects__articles:hover .fa-link {
           opacity: 1; }
+
+@media (min-width: 768px) {
+  .footer__projects__image {
+    height: 120px;
+    width: 120px; } }

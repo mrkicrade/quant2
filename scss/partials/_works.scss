@@ -83,13 +83,24 @@
       }
     }
   }
-
   // &__btn-2 {
   //   bottom: -1%;
   //   left: 50%;
   //   position: absolute;
   //   transform: translate(-50% 50%);
   // }
+}
+
+@media (min-width: 768px) {
+  .works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+
+    &__gallery {
+      width: 49%;
+    }
+  }
 }
 
 // @media (max-width: 1025px) {
