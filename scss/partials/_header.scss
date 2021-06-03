@@ -85,6 +85,10 @@
   }
 }
 
-// @media (min-width: 576px) {
-
-// }
+@media (min-width: 992px) {
+  .main-header {
+    &__contact {
+      display: flex;
+    }
+  }
+}

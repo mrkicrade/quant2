@@ -62,3 +62,15 @@
     }
   }
 }
+
+@media (min-width: 992px) {
+  .gallery {
+    &__par {
+      font-size: $works-info-heading;
+    }
+
+    &__heading {
+      font-size: $introduction-heading;
+    }
+  }
+}

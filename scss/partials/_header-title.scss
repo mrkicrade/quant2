@@ -42,6 +42,22 @@
   }
 }
 
+@media (min-width: 992px) {
+  .navigation-mobile {
+    display: none;
+  }
+
+  .main-header {
+    &__par {
+      font-size: $works-info-heading;
+    }
+
+    &__title {
+      font-size: $header-title-lg;
+    }
+  }
+}
+
 // @media (max-width: 1350px) {
 //   .main-header {
 //     &__par {

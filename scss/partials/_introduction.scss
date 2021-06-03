@@ -70,6 +70,30 @@
   }
 }
 
+@media (min-width: 992px) {
+  .introduction {
+    display: flex;
+    &__articles {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      &__paragraph {
+        font-size: $works-info-heading;
+      }
+
+      &__heading {
+        font-size: $introduction-heading;
+      }
+    }
+    &__articles:not(:last-child) {
+      margin-right: 15px;
+    }
+
+    &__desc {
+      text-align: justify;
+    }
+  }
+}
+
 // @media (max-width: 800px) {
 //   .introduction {
 //     flex-wrap: wrap;

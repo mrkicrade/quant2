@@ -132,6 +132,32 @@
   }
 }
 
+@media (min-width: 992px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 75px 50px;
+    &__part {
+      img {
+        width: 200px;
+      }
+
+      &__address {
+        &__heading {
+          font-size: $introduction-heading;
+          line-height: 2;
+        }
+      }
+    }
+    &__projects {
+      &__image {
+        height: 90px;
+        width: 90px;
+      }
+    }
+  }
+}
+
 // @media (max-width: 800px) {
 //   .footer {
 //     display: block;
