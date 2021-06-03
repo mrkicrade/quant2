@@ -1,14 +1,7 @@
 .introduction {
-  // display: flex;
-  // padding: 100px 35px;
-  // padding: 100px 10px;
   padding: 50px 15px;
 
   &__articles {
-    // padding-left: 3%;
-    // padding-right: 3%;
-    // width: 25%;
-
     &__paragraph {
       font-size: $font-sizes;
       letter-spacing: 4px;
@@ -28,7 +21,6 @@
     &__btn {
       color: $introduction-btn;
       cursor: pointer;
-      // margin-top: 15px;
       text-transform: uppercase;
     }
 
@@ -48,7 +40,6 @@
   }
 
   .introduction__articles {
-    // border-right: 1px solid $introduction-border;
     margin-bottom: 10px;
     margin-top: 10px;
   }
@@ -94,18 +85,20 @@
   }
 }
 
-// @media (max-width: 800px) {
-//   .introduction {
-//     flex-wrap: wrap;
-//     padding-left: 10px;
+@media (min-width: 1200px) {
+  .introduction {
+    &__articles:not(:last-child) {
+      border-right: 1px solid $introduction-border;
+    }
 
-//     article {
-//       margin-top: 40px;
-//       width: 100%;
-//     }
+    &__articles {
+      &__desc {
+        padding-right: 15px;
+      }
+    }
 
-//     .introduction__articles {
-//       border-right: 0;
-//     }
-//   }
-// }
+    &__desc {
+      padding-right: 15px;
+    }
+  }
+}

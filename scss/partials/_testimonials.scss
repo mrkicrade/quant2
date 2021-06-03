@@ -1,22 +1,18 @@
 .testimonials {
   box-shadow: $box-shadow-color;
-  // margin: 0 75px;
   margin: 70px 15px 0;
-  // padding: 0 55px 30px;
   padding: 0 0 30px;
   position: relative;
   text-align: center;
 
   &__par {
     letter-spacing: 3px;
-    // padding-top: 100px;
     padding-top: 50px;
     text-transform: uppercase;
   }
 
   &__heading {
     color: $header-bkg-color;
-    // font-size: $introduction-heading;
     font-size: $introduction-title;
 
     margin-bottom: 40px;
@@ -33,7 +29,6 @@
 
   &__user {
     display: inline-block;
-    // margin: 0 200px;
     width: 100px;
   }
 
@@ -78,5 +73,11 @@
 @media (min-width: 992px) {
   .testimonials {
     margin: 70px 75px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .testimonials {
+    margin: 70px 100px 0;
   }
 }

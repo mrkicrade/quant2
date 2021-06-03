@@ -1,5 +1,4 @@
 .main-header__par {
-  // font-size: $header-title;
   font-size: $info-font-sizes;
   letter-spacing: 2.7;
   line-height: 13px;
@@ -10,7 +9,6 @@
 
 .main-header__title {
   color: $info-text-color;
-  // font-size: $main-header-title;
   font-size: $heading-title;
   font-weight: 700;
   letter-spacing: 0;
@@ -57,39 +55,3 @@
     }
   }
 }
-
-// @media (max-width: 1350px) {
-//   .main-header {
-//     &__par {
-//       margin-bottom: 10px;
-//     }
-
-//     &__title {
-//       font-size: $main-header-title2;
-//     }
-//   }
-// }
-
-// @media (max-width: 1200px) {
-//   .main-header__title {
-//     font-size: $introduction-heading;
-//   }
-// }
-
-// @media (max-width: 863px) {
-//   .main-header__title {
-//     font-size: $works-info-heading;
-//   }
-// }
-
-// @media (max-width: 863px) {
-//   .main-header {
-//     &__par {
-//       font-size: $introduction-title;
-//     }
-
-//     &__title {
-//       font-size: $introduction-title;
-//     }
-//   }
-// }

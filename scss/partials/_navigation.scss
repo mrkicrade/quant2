@@ -3,7 +3,6 @@
   border-radius: 5px;
   box-shadow: $box-shadow-color;
   display: none;
-  // display: flex;
   justify-content: space-between;
   left: 5.45%;
   margin: 0 auto;
@@ -34,8 +33,6 @@
       border-left: 1px solid $border-nav-color;
       cursor: pointer;
       margin-right: 25px;
-      // padding-left: 25px;
-      // padding-top: 25px;
       padding: 0 20px;
     }
 
@@ -46,7 +43,6 @@
 }
 
 .navigation-mobile {
-  // display: none;
   margin-top: 25px;
 }
 
@@ -68,14 +64,3 @@
     }
   }
 }
-
-// @media (max-width: 1025px) {
-//   .navigation {
-//     display: none;
-//   }
-
-//   .navigation-mobile {
-//     color: $info-text-color;
-//     display: block;
-//   }
-// }
