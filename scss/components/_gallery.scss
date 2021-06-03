@@ -19,17 +19,8 @@
   }
 
   &-btn {
-    background-color: $gallery-btn;
-    border: 0;
-    border-radius: 35px;
-    box-shadow: $box-shadow-color;
-    color: $about-title;
-    cursor: pointer;
+    @include button($gallery-btn, 0, 35px, $box-shadow-color, $about-title, pointer, 700, 0 19px, uppercase, 3s letter-spacing);
     font-size: $info-font-sizes;
-    font-weight: 700;
-    padding: 19px 41px;
-    text-transform: uppercase;
-    transition:  .3s letter-spacing;
 
     &:hover {
       letter-spacing: 3px;

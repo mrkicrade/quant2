@@ -249,22 +249,22 @@ a {
   .introduction {
     display: flex; }
     .introduction__articles {
-      margin-top: 15px;
-      margin-bottom: 15px; }
+      margin-bottom: 15px;
+      margin-top: 15px; }
       .introduction__articles__paragraph {
         font-size: 24px; }
       .introduction__articles__heading {
         font-size: 30px; }
-    .introduction__articles:not(:last-child) {
-      margin-right: 15px; }
+      .introduction__articles:not(:last-child) {
+        margin-right: 15px; }
     .introduction__desc {
       text-align: justify; } }
 
 @media (min-width: 1200px) {
-  .introduction__articles:not(:last-child) {
-    border-right: 1px solid #f1f1f1; }
   .introduction__articles__desc {
     padding-right: 15px; }
+  .introduction__articles:not(:last-child) {
+    border-right: 1px solid #f1f1f1; }
   .introduction__desc {
     padding-right: 15px; } }
 
@@ -510,10 +510,15 @@ a {
     margin-left: 15px; }
   .epp__left__desc {
     margin-bottom: 50px;
-    margin-top: 35px;
     padding-left: 15px;
     padding-right: 15px;
     text-align: justify; }
+  .epp__left-heading {
+    color: #4c4c4c;
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase; }
   .epp__right {
     margin-bottom: 50px;
     text-align: center; }
@@ -521,17 +526,11 @@ a {
       margin-top: 35px;
       padding-left: 40px;
       padding-right: 80px; }
-      .epp__right__left-heading {
-        color: #4c4c4c;
-        font-size: 24px;
-        margin-bottom: 30px;
-        text-align: center;
-        text-transform: uppercase; }
     .epp__right__image {
       width: 90%; }
 
 @media (min-width: 568px) {
-  .epp__right__left-heading {
+  .epp__left-heading {
     font-size: 28px; } }
 
 @media (min-width: 992px) {
@@ -639,14 +638,24 @@ a {
     padding: 100px 75px 50px; }
     .footer__part img {
       width: 200px; }
-    .footer__part__address__heading {
+    .footer__address__heading {
       font-size: 30px;
       line-height: 2; }
     .footer__projects__image {
-      height: 90px;
-      width: 90px; } }
+      height: 88px;
+      width: 88px; } }
 
 @media (min-width: 1200px) {
   .footer__projects__image {
     height: 110px;
     width: 110px; } }
+
+@media (min-width: 1400px) {
+  .footer__address__city {
+    justify-content: center; }
+  .footer__address__phone {
+    justify-content: center; }
+  .footer__address__mail {
+    justify-content: center; }
+  .footer__address__hours {
+    justify-content: center; } }

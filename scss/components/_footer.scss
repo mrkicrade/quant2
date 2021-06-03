@@ -125,22 +125,25 @@
     display: flex;
     justify-content: space-between;
     padding: 100px 75px 50px;
+
     &__part {
       img {
         width: 200px;
       }
 
-      &__address {
-        &__heading {
-          font-size: $introduction-heading;
-          line-height: 2;
-        }
+    }
+
+    &__address {
+      &__heading {
+        font-size: $introduction-heading;
+        line-height: 2;
       }
     }
+
     &__projects {
       &__image {
-        height: 90px;
-        width: 90px;
+        height: 88px;
+        width: 88px;
       }
     }
   }
@@ -152,6 +155,28 @@
       &__image {
         height: 110px;
         width: 110px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .footer {
+    &__address {
+      &__city {
+        justify-content: center;
+      }
+
+      &__phone {
+        justify-content: center;
+      }
+
+      &__mail {
+        justify-content: center;
+      }
+
+      &__hours {
+        justify-content: center;
       }
     }
   }

@@ -64,9 +64,11 @@
 @media (min-width: 992px) {
   .introduction {
     display: flex;
+
     &__articles {
-      margin-top: 15px;
       margin-bottom: 15px;
+      margin-top: 15px;
+
       &__paragraph {
         font-size: $works-info-heading;
       }
@@ -74,10 +76,12 @@
       &__heading {
         font-size: $introduction-heading;
       }
+
+      &:not(:last-child) {
+        margin-right: 15px;
+      }
     }
-    &__articles:not(:last-child) {
-      margin-right: 15px;
-    }
+
 
     &__desc {
       text-align: justify;
@@ -87,13 +91,13 @@
 
 @media (min-width: 1200px) {
   .introduction {
-    &__articles:not(:last-child) {
-      border-right: 1px solid $introduction-border;
-    }
-
     &__articles {
       &__desc {
         padding-right: 15px;
+      }
+
+      &:not(:last-child) {
+        border-right: 1px solid $introduction-border;
       }
     }
 
