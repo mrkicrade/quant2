@@ -29,7 +29,7 @@ a {
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 0 20px; }
+  padding: 0 20px 35px; }
   .main-header__info {
     display: flex;
     justify-content: space-between;
@@ -196,15 +196,6 @@ a {
 @media (min-width: 568px) {
   .btn {
     width: 250px; } }
-
-.circle {
-  margin-top: 95px;
-  padding-bottom: 35px;
-  text-align: center; }
-  .circle .circle-1 {
-    color: #fff; }
-  .circle .circle-2 {
-    margin-left: 10px; }
 
 .introduction {
   padding: 50px 15px; }
