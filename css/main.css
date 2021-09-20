@@ -329,7 +329,7 @@ a {
     color: #4c4c4c;
     cursor: pointer;
     font-weight: 700;
-    padding: 0 19px;
+    padding: 20px 25px;
     text-transform: uppercase;
     transition: 3s letter-spacing;
     font-size: 13px; }
@@ -428,47 +428,41 @@ a {
   .works__gallery {
     width: 33%; } }
 
-.testimonials {
-  box-shadow: 0 15px 45px -9px #888;
-  margin: 70px 15px 0;
-  padding: 0 0 30px;
-  position: relative;
-  text-align: center; }
-  .testimonials__par {
-    letter-spacing: 3px;
-    padding-top: 50px;
-    text-transform: uppercase; }
-  .testimonials__heading {
-    color: rgba(10, 10, 10, 0.8);
-    font-size: 16px;
-    margin-bottom: 40px;
-    text-transform: uppercase; }
-  .testimonials .fa-chevron-left {
-    color: #cacaca;
-    font-size: 28px;
-    left: 50px;
-    position: absolute;
-    top: 175px; }
-  .testimonials__user {
-    display: inline-block;
-    width: 100px; }
-  .testimonials .fa-chevron-right {
-    color: #cacaca;
-    font-size: 28px;
-    position: absolute;
-    right: 50px;
-    top: 175px; }
-  .testimonials__desc {
-    margin: 20px 0;
-    padding: 0 15px;
-    text-align: justify; }
-  .testimonials__strong {
-    color: rgba(10, 10, 10, 0.8);
-    font-size: 16px;
-    margin-bottom: 20px;
-    margin-top: 30px; }
-  .testimonials__number {
-    font-size: 26px; }
+.testimonial {
+  background-color: #fff9f8;
+  margin-top: 60px; }
+  .testimonial .container #carousel .carousel-indicators {
+    margin-bottom: 30px; }
+    .testimonial .container #carousel .carousel-indicators li {
+      width: 10px;
+      height: 10px;
+      border-radius: 100%;
+      background-color: #ffc3c2; }
+    .testimonial .container #carousel .carousel-indicators .carousel-btn {
+      background-color: #ffc3c2; }
+  .testimonial .container #carousel .carousel-inner .carousel-item .single-tst {
+    text-align: center; }
+    .testimonial .container #carousel .carousel-inner .carousel-item .single-tst > img {
+      margin: 60px auto 45px; }
+    .testimonial .container #carousel .carousel-inner .carousel-item .single-tst p {
+      color: #263a41;
+      font-family: 'Rufina', serif;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 35px;
+      margin-bottom: 43px; }
+    .testimonial .container #carousel .carousel-inner .carousel-item .single-tst .client-info > img {
+      border-radius: 50px;
+      margin-bottom: 22px;
+      height: 76px;
+      width: 76px; }
+    .testimonial .container #carousel .carousel-inner .carousel-item .single-tst .client-info p {
+      font-size: 22px;
+      margin-bottom: 0; }
+      .testimonial .container #carousel .carousel-inner .carousel-item .single-tst .client-info p span {
+        display: inline-block;
+        font-size: 15px;
+        font-weight: 400; }
 
 @media (min-width: 568px) {
   .testimonials__par {

@@ -19,7 +19,7 @@
   }
 
   &-btn {
-    @include button($gallery-btn, 0, 35px, $box-shadow-color, $about-title, pointer, 700, 0 19px, uppercase, 3s letter-spacing);
+    @include button($gallery-btn, 0, 35px, $box-shadow-color, $about-title, pointer, 700, 20px 25px, uppercase, 3s letter-spacing);
     font-size: $info-font-sizes;
 
     &:hover {
