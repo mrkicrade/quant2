@@ -23,8 +23,8 @@
             <li><a href="#">Početna</a></li>
             <li><a href="#about">O nama</a></li>
             <li><a href="#usluge">Usluge</a></li>
-            <li><a href="#">Galerija</a></li>
-            <li><a href="#">Kontkakt</a></li>
+            <li><a href="#testimonial">Utisci</a></li>
+            <li><a href="#appointment">Kontkakt</a></li>
         </ul>
         <ul class="navigation__right list-reset">
             <li><a href="https://www.facebook.com/marija.cevrljakovic.7" target="_blank"><i class="fab fa-facebook"></i></a></li>
@@ -188,7 +188,7 @@
             <button class="btn">Saznajte više</button>
         </section>
         <!-- Section Testimonial -->
-        <section class="testimonial">
+        <section id="testimonial" class="testimonial">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-lg-10 mx-auto">
@@ -286,47 +286,49 @@
         </section> -->
 
         <!-- Appointment -->
-    <section class="appointment">
-        <img src="images/appointment-img.jpg" class="appointment__img" alt="Appointment">
-  
-        <form action="#">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6">
-                <input type="text" placeholder="Ime i prezime" class="appointment__appointment-form--input-field" required>
+    <section id="appointment" class="appointment">
+        <h2 class="appointment__heading">Zakažite svoj termin</h2>
+        <div class="appointment__appointment-2">
+            <img src="images/appointment-img.jpg" class="appointment__img" alt="Appointment">
+            <form action="#">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="text" placeholder="Ime i prezime" class="appointment__appointment-form--input-field" required>
+                  </div>
+                  <div class="col-md-6">
+                    <input type="email" placeholder="Email adresa" class="appointment__appointment-form--input-field"
+                      required>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <select class="appointment__appointment-form--input-field" required>
+                      <option>Masaža</option>
+                      <option>Kavitacija</option>
+                      <option>Limfna drenaža</option>
+                      <option>Šminka</option>
+                      <option>Obrve</option>
+                      <option>Pedikir</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6">
+                    <input type="tel" placeholder="Broj telefona" class="appointment__appointment-form--input-field" required>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="date" placeholder="Datum" class="appointment__appointment-form--input-field" required>
+                  </div>
+                  <div class="col-md-6">
+                    <input type="Vreme" class="appointment__appointment-form--input-field" placeholder="Vreme">
+                  </div>
+                </div>
+                <textarea name="notes" class="appointment__appointment-form--input-field" placeholder="Ostavite poruku"></textarea>
+                <button class="btn">Zakažite termin</button>
               </div>
-              <div class="col-md-6">
-                <input type="email" placeholder="Email adresa" class="appointment__appointment-form--input-field"
-                  required>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <select class="appointment__appointment-form--input-field" required>
-                  <option>Masaža</option>
-                  <option>Kavitacija</option>
-                  <option>Limfna drenaža</option>
-                  <option>Šminka</option>
-                  <option>Obrve</option>
-                  <option>Pedikir</option>
-                </select>
-              </div>
-              <div class="col-md-6">
-                <input type="tel" placeholder="Broj telefona" class="appointment__appointment-form--input-field" required>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <input type="date" placeholder="Datum" class="appointment__appointment-form--input-field" required>
-              </div>
-              <div class="col-md-6">
-                <input type="Vreme" class="appointment__appointment-form--input-field" placeholder="Vreme">
-              </div>
-            </div>
-            <textarea name="notes" class="appointment__appointment-form--input-field" placeholder="Ostavite poruku"></textarea>
-            <button class="btn">Zakažite termin</button>
-          </div>
-        </form>
+            </form>
+        </div>
       </section>
       <!-- Appointment end -->
         <!-- <div class="back-to-top">

@@ -211,6 +211,7 @@ a {
     .introduction__articles__heading {
       color: #303030;
       font-size: 24px;
+      padding-right: 15px;
       font-weight: 900;
       margin-bottom: 15px;
       text-align: center;
@@ -429,7 +430,8 @@ a {
 
 .testimonial {
   background-color: #fff9f8;
-  margin-top: 60px; }
+  margin-top: 60px;
+  padding-bottom: 60px; }
   .testimonial .container #carousel .carousel-indicators {
     margin-bottom: 30px; }
     .testimonial .container #carousel .carousel-indicators li {
@@ -541,10 +543,19 @@ a {
     border-right: 1px solid rgba(0, 0, 0, 0.08); } }
 
 .appointment {
-  background-color: #fff9f8;
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 35px; }
+  background-color: #fff9f8; }
+  .appointment__heading {
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px 0;
+    color: #4c4c4c;
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase; }
+  .appointment__appointment-2 {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 35px; }
   .appointment__img {
     display: none; }
   .appointment__appointment-form--input-field {
